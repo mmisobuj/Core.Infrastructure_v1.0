@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AbxERP.Infrastructure": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "nativeDebugging": true
+    }
+  }
+}
