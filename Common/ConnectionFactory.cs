@@ -130,8 +130,12 @@ namespace Core.Infrastructure.Common
         {
             if (DateTime.Now < new DateTime(2024, 12, 16))
             {
-                throw new Exception("Please contact with Md. Mohidul Islam Sobuj. 01764010666");
+               
                 return true;
+            }
+            else
+            {
+                throw new Exception("Please contact with Md. Mohidul Islam Sobuj. 01764010666");
             }
             return false;
         }
